@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', cursive;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../CandleShop/img/oil1.jpg');
+    background-size: cover;
+    height: 600px;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image-link a {
+    background-color: #dda87d91;
+    padding: 1rem;
+    border: 2px solid ;
+    color: aliceblue;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image-link a:hover {
+    transform: scale(1.5);
+}
+
+.intro-text {
+    height: 350px;
+    background-color: rgb(196, 161, 119);
+    color: rgb(51, 30, 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+    padding-top: 5rem;
+    margin-top: -6rem;
+    clip-path: polygon(50% 8%, 100% 0, 100% 43%, 100% 100%, 68% 100%, 32% 100%, 0 100%, 0 34%, 0 0);
+
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.Quality-image {
+    background-attachment: fixed;
+    height: 450px;
+    background-image: url('../CandleShop/img/oil2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Quality-image__link a {
+    background-color: #dda87d5a;
+    padding: 1rem;
+    border: 2px solid ;
+    color: aliceblue;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+}
+
+.Quality-image__link a:hover{
+    transform: scale(1.5);
+}
+
+.Quality-text {
+    height: 350px;
+    background-color: rgba(168, 108, 83, 0.813);
+    color: rgb(88, 15, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.Quality-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.Origin-image {
+    background-attachment: fixed;
+    height: 450px;
+    background-image: url('../CandleShop/img/oil3.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Origin-image__link a {
+    background-color: #ffffffae;
+    padding: 1rem;
+    border: 2px solid ;
+    color: rgb(95, 64, 23);
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+}
+
+.Origin-image__link a:hover{
+    transform: scale(1.5);
+}
+
+.Origin-text {
+    height: 350px;
+    background-color: #ffffffae;
+    color: rgb(95, 64, 23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.Origin-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+
+.footer {
+    height: 250px;
+    background-color: rgb(66, 30, 25);
+    color: bisque;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: bisque;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    transform: scale(1.2);
+}
